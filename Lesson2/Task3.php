@@ -10,27 +10,21 @@ $position = $num - (int)($num / 8) * 8;
 
 switch ($position){
     case 0:
+    case 2:
         echo("Указательный палец\n");
         break;
     case 1:
         echo("Большой палец\n");
         break;
-    case 2:
-        echo("Указательный палец\n");
-        break;
     case 3:
+    case 7:
         echo("Средний палец\n");
         break;
     case 4:
+    case 6:
         echo("Безымянный палец\n");
         break;
     case 5:
         echo("Мизинец палец\n");
         break;
-    case 6:
-        echo("Безымянный палец\n");
-        break;
-    case 7:
-        echo("Средний палец\n");
-        break;
-    }
+}
